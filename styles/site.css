@@ -1,0 +1,185 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color:#00272B;
+}
+
+/*Bootstrap override*/
+.bg-dark {
+  background-color: 	#FFCF0F!important;
+}
+
+.navbar-dark .navbar-brand {
+  color: black;
+}
+
+.navbar-nav {
+  margin:auto;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(0,0,0,.5);
+}
+
+.section{
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed
+}
+
+#home {
+  background-image: url("https://images.unsplash.com/photo-1502900476531-ca62d0f2b679?dpr=1&auto=compress,format&fit=crop&w=1650&h=&q=80&cs=tinysrgb&crop=");
+  overflow: auto;
+}
+
+#projects {
+  background-image: url("https://internetdevels.com/sites/default/files/public/styles/937s/public/blog_preview/estimation_blog.jpg?itok=atgzeVr9");
+  overflow:auto;
+  display:none;
+}
+
+#skills {
+  background-image: url("https://images.unsplash.com/photo-1484417894907-623942c8ee29?w=1778&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D");
+  overflow:auto;
+  display:none;
+}
+
+.band{
+  background-color: #383D3B;
+  height: 100%;
+  min-width: 352px;
+  overflow: auto;
+  max-width: 455px;
+}
+
+.band .row{
+  margin-top:-10px;
+}
+
+.skill{
+  margin-top: 100px;
+  margin-bottom: -50px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 80px;
+  position: relative;
+  max-width: 117px;
+}
+
+.skill .detail{
+  height:auto;
+  opacity:0.7;
+  background-color:#575761;
+  position: absolute;
+  width: 100%;
+  bottom: -10px;
+  left:0;
+  display:none;
+  padding-top:10px;
+  border-radius:5px;
+}
+.detail span.fa-star{
+  color:#FFBF46;
+}
+
+.personinfo{
+  height: 100%;
+  width: 40%;
+  margin: auto;
+  background-color: #50514F;
+  overflow:auto;
+}
+
+.title{
+  background-color: #FFCF0F;
+  height: auto;
+  width: 100%;
+  padding: 10px;
+}
+
+.photo{
+  height: auto;
+  width:100%;
+  margin-top:100px;
+  margin-bottom:20px;
+}
+
+.photo img{
+  width:50%;
+}
+
+.about{
+  background-color: #FFCF0F; 
+  height: auto;
+  width:100%;
+  clear:left;
+  padding: 5px 15px 5px 15px;
+  position: relative;
+  top:15px;
+}
+
+.social{
+  margin:35px auto 0 auto;
+}
+
+.social i {
+  margin: auto;
+  color:	#161B33;
+}
+
+.social i:hover {
+  color:	#fe0e4c;
+}
+
+.project{
+  height:auto;
+  background-color: #293241;
+  border-radius:5px;
+  margin: 100px auto 0px auto;
+  position:relative;
+  padding: 0 0 30px 0px;
+}
+
+.project .project-title{
+  background-color: #F75C03;
+  color:black;
+  width:100%;
+  margin-bottom:5px;
+  padding:5px;
+  border-radius:5px 5px 0 0;
+}
+
+.project  a{
+  text-decoration:none;
+}
+
+.project-title:hover{
+  color:#F5BB00;
+  background-color:#FC0252
+  
+}
+.project .platforms{
+  padding:5px;
+}
+
+.project .footer{
+  padding:5px;
+  position:absolute;
+  bottom:0px;
+}
+
+.platforms span{
+  margin-bottom:5px;
+}
+
+.footer:hover p{
+  color:#4C5154
+}
+
+@media screen and (max-width: 780px){
+  .project{
+    margin:100px 10px 0px 10px;
+  }
+}
