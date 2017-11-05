@@ -27,6 +27,11 @@ $(document).ready(function(){
     $("ul.navbar-nav").find(".active").removeClass("active")
     $(this).parent().addClass("active");
   });
+
+  //navbar hide after click
+    $('.navbar-collapse a').click(function(){
+        $(".navbar-collapse").collapse('hide');
+    });
   
   $(".collapse a").on("click", function(e){
     var id = $(e.target).attr("data-target");

@@ -136,10 +136,18 @@ body {
   height:auto;
   background-color: #293241;
   border-radius:5px;
-  margin: 100px auto 0px auto;
+  margin: 100px auto -50px auto;
   position:relative;
   padding: 0 0 30px 0px;
 }
+
+
+@media screen and (max-width: 780px){
+  .project{
+    margin:100px 10px -50px 10px;
+  }
+}
+
 
 .project .project-title{
   background-color: #F75C03;
@@ -177,8 +185,4 @@ body {
   color:#4C5154
 }
 
-@media screen and (max-width: 780px){
-  .project{
-    margin:100px 10px 0px 10px;
-  }
-}
+
