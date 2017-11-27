@@ -34,8 +34,6 @@ $(document).ready(function(){
     });
   
   $(".collapse a").on("click", function(e){
-
-    debugger
     var id = $(e.target).attr("data-target");
     $(".section").hide();
     $("#" + id).show().animateCss("bounceInLeft");
